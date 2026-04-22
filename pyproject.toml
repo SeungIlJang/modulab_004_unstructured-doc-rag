@@ -3,11 +3,12 @@ name = "004-prj"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 dependencies = [
-    "docling>=2.88.0",
     "dotenv>=0.9.9",
-    "langchain>=1.2.15",
-    "pandas>=3.0.2",
-    "torch==2.2.2",
+    "llvmlite==0.43.0",
+    "numba==0.60.0",
+    "pandas>=2.3.3",
+    "pdfminer>=20191125",
+    "unstructured>=0.18.32",
 ]
