@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+uv.lock
+
+# 추가 권장
+.ipynb_checkpoints/
+*.db
+chroma_db/
+.python-version
